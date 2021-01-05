@@ -18,8 +18,8 @@ public class Product implements Serializable{
 	private Long id;
 	private String name;
 	private Double price;
-	private String description;
 	private String imageUri;
+	private String description;
 	
 	public Product() {
 	}
