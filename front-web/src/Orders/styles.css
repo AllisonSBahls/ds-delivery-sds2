@@ -9,7 +9,7 @@
   .orders-steps-container {
     display: flex;
     justify-content: center;
-    background-color: #FFF;
+    background-color: #FFfffF;
     margin-bottom: 30px;
   }
   
@@ -261,6 +261,14 @@
     transform: scale(1.01);
   }
   
+  @media only screen and (max-width: 1366px) {
+    .orders-list-items {
+      width: 75%;
+    }
+    .order-location-content {
+      width: 75%;
+    }
+  }
   @media only screen and (max-width: 768px) {
     .orders-steps-content {
       display: flex;
