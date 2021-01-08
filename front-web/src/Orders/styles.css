@@ -268,6 +268,10 @@
     .order-location-content {
       width: 75%;
     }
+
+    .order-summary-content {
+      width: calc(75% - 40px);
+    }
   }
   @media only screen and (max-width: 768px) {
     .orders-steps-content {
