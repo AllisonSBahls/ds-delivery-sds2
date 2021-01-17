@@ -1,38 +1,36 @@
 import React from "react";
 import { StyleSheet, Text, View } from "react-native";
-import Header from "../Header";
 import { Order } from "../types";
 import dayjs from 'dayjs';
-import 'dayjs/lacale/pt-br';
+import 'dayjs/locale/pt-br';
 import relativeTime from 'dayjs/plugin/relativeTime';
 
 dayjs.locale('pt-br');
+dayjs.extend(relativeTime)
+
 type Props = {
     order: Order;
 }
-
-
-
 
 function dateFromNow(date: string){
     return dayjs(date).fromNow();
 }
 
-function formatPrice(price: number){
-    const formatter = new Intl.NumberFormat('pt-BR',{
-        style: 'currency',
-        currency: "BRL",
-        minimumFractionDigits: 2
-    });
-    return formatter.format(price);
-}
+// export function formatPrice(price: number){
+//     const formatter = new Intl.NumberFormat('pt-BR',{
+//         style: 'currency',
+//         currency: "BRL",
+//         minimumFractionDigits: 2
+//     });
+//     return formatter.format(price);
+// }
 
 export default function OrderCard({order}:Props) {
     return (  
     <View style={styles.container}>
         <View style={styles.header}>
             <Text style={styles.orderName}>Pedido {order.id}</Text>
-            <Text style={styles.orderPrice}>{formatPrice(order.total)}</Text>
+            <Text style={styles.orderPrice}>R$ {order.total.toFixed(2)}</Text>
         </View>
         <Text style={styles.text}>{dateFromNow(order.moment)}</Text>
         <View style={styles.productsList}>

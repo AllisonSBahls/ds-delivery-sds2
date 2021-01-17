@@ -4,13 +4,13 @@ export type Order = {
     latitude: number,
     longitude: number,
     moment: string,
-    stats: string,
+    status: string,
     products: Product[],
     total: number;
 }
 
 export type Product = {
-    id: number
+    id: number,
     name: string,
     price: number,
     description: string,

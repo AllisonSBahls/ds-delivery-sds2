@@ -56,7 +56,7 @@ export default function Orders() {
 
 const styles = StyleSheet.create({
   container: {
-    paddingRight: '15%',
-    paddingLeft: '15%'
+    paddingRight: '5%',
+    paddingLeft: '5%'
   }
 });
