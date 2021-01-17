@@ -6,22 +6,22 @@
 </h1>
 <p align="center">Sistema de Entrega de Pedidos DevSuperior - https://dsdelivery-bahls.netlify.app/</p>
 <p align="center">
-  <a href="https://dsdelivery-bahls.netlify.app/">
+  <a href="https://i.imgur.com/wJ1zAkw.jpg">
     <img src="https://i.imgur.com/wJ1zAkw.jpg" alt="Logo" height="225">
   </a>
-   <a href="https://dsdelivery-bahls.netlify.app/">
+   <a href="https://i.imgur.com/KlXlvL5.jpg">
     <img src="https://i.imgur.com/KlXlvL5.jpg" alt="Lista de Pedidos" height="225">
   </a>
-  <a href="https://dsdelivery-bahls.netlify.app/">
+  <a href="https://i.imgur.com/s7ec2cu.jpg">
     <img src="https://i.imgur.com/s7ec2cu.jpg" alt="Pedidos Detalhados" height="225">
   </a>
 </p>
 
 <p align="center">
-  <a href="https://dsdelivery-bahls.netlify.app/">
+  <a href="https://i.imgur.com/FLGKEO4.png">
     <img src="https://i.imgur.com/FLGKEO4.png" alt="Página Principal" height="225">
   </a>
-   <a href="https://dsdelivery-bahls.netlify.app/">
+   <a href="https://i.imgur.com/ZHGCpKh.png">
     <img src="https://i.imgur.com/ZHGCpKh.png" alt="Pagina de Pedidos" height="225">
   </a>
 </p>
