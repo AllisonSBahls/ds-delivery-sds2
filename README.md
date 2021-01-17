@@ -74,7 +74,7 @@ Segue logo abaixo as funcionalidades da aplicação.
 #### 1) Clone
 
 - 1.1) `git clone https://github.com/AllisonSBahls/ds-delivery-sds2`.
-- 1.2) `cd s-delivery-sds2` - cd para entrar na pasta criada.
+- 1.2) `cd ds-delivery-sds2` - cd para entrar na pasta criada.
 
 #### 2) Backend
 - 2.1) Abra o Spring Boot Tools para importar o projeto que esta na pasta Backend.
