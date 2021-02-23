@@ -30,7 +30,7 @@
 
 ### :blush: **Projeto**
 
-O DSDelivery é um íncrivel projeto realizado durante a Semana DevSuperior 2.0 com os instrutores Nelio Alves e Washington Soares, utilizando tecnologias como Spring Boot, React e React Native. até o momento o projeto  possui funções relacionadas aos pedidos e integração com google maps no mobile e mapbox para web para cadastro de endereço e definir a rota de entrega para o entregador.
+O DSDelivery é um sistema de entrega de pedidos construido durante a Semana DevSuperior 2.0 com a ajuda de Nelio Alves e Washington Soares, utilizando tecnologias como Spring Boot, React e React Native. até o momento o projeto  possui funções relacionadas aos pedidos e integração com google maps no mobile e mapbox para web para cadastro de endereço e definir a rota de entrega para o entregador.
 
 ### **Funcionalidades**
 
