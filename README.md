@@ -78,8 +78,9 @@ Segue logo abaixo as funcionalidades da aplicação.
 
 #### 2) Backend
 - 2.1) Abra o Spring Boot Tools para importar o projeto que esta na pasta Backend.
-- 2.2) Altera as propriedades de prod para test.
+- 2.2) Altera as propriedades em `application.properties` de `spring.profiles.active=prod` para `spring.profiles.active=test`
 - 2.3) Execute a aplicação.
+
         
 #### 3) Frontend
 - 3.1) Acesse a pasta front-web.
